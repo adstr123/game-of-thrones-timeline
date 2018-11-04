@@ -1,0 +1,25 @@
+{
+  "name": "medium-tut",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"nodemon ./bin/www\" \"cd client && npm start\""
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11",
+    "react-delay": "^0.1.0",
+    "react-event-timeline": "^1.5.2",
+    "react-transition-group": "^2.3.1",
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.17.4"
+  }
+}
